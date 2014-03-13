@@ -99,5 +99,13 @@ if(operation === "/") {
    
   sum = divideNumber(a, b);
    console.log(a + " / " + b + " = " + sum);
+} else {
+	console.log("Invalid calculation!");
    
  };
+ 
+
+
+
+
+
