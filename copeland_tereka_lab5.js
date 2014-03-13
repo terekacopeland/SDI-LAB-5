@@ -40,3 +40,13 @@ var addNumber = function(numOne, numTwo) {
    console.log(a + " + " + b + " = " + sum);
    
  };
+ 
+
+// Subtracting
+
+var subtractNumber = function(numOne, numTwo) {
+
+	var result = numOne - numTwo;
+		return result;
+
+};
