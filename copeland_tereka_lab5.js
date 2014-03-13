@@ -100,6 +100,7 @@ if(operation === "/") {
   sum = divideNumber(a, b);
    console.log(a + " / " + b + " = " + sum);
 } else {
+	sum = divideNumber(0);
 	console.log("Invalid calculation!");
    
  };
