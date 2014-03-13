@@ -50,3 +50,13 @@ var subtractNumber = function(numOne, numTwo) {
 		return result;
 
 };
+
+a = parseInt(a);
+b = parseInt(b);
+
+if(operation === "-") {
+   
+  sum = subtractNumber(a, b);
+   console.log(a + " - " + b + " = " + sum);
+   
+ };
