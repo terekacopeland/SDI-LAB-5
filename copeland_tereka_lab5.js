@@ -60,3 +60,24 @@ if(operation === "-") {
    console.log(a + " - " + b + " = " + sum);
    
  };
+ 
+
+ // Multiply
+ 
+ var multiplyNumber = function(numOne, numTwo) {
+
+	var result = numOne * numTwo;
+		return result;
+
+};
+
+
+a = parseInt(a);
+b = parseInt(b);
+
+if(operation === "*") {
+   
+  sum = multiplyNumber(a, b);
+   console.log(a + " * " + b + " = " + sum);
+   
+ };
