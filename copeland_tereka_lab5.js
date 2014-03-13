@@ -81,3 +81,23 @@ if(operation === "*") {
    console.log(a + " * " + b + " = " + sum);
    
  };
+ 
+ // Divide
+ 
+  var divideNumber = function(numOne, numTwo) {
+
+	var result = numOne / numTwo;
+		return result;
+
+};
+
+
+a = parseInt(a);
+b = parseInt(b);
+
+if(operation === "/") {
+   
+  sum = divideNumber(a, b);
+   console.log(a + " / " + b + " = " + sum);
+   
+ };
